@@ -15,4 +15,8 @@ public class Calculator {
     public double divide(double number1, double number2) {
         return number1 / number2;
     }
+
+    public double exp2 (double number){
+        return Math.pow(number, 2.0);
+    }
 }
